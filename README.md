@@ -34,7 +34,7 @@ Installez Docker en suivant les instructions sur leur [site officiel](https://ww
 Ensuite, installez Docker Compose :
 
 ```sh
-sudo apt install -y docker-compose-plugin
+sudo apt install -y docker-compose
 ```
 
 ## Préparation du projet
@@ -53,7 +53,7 @@ cd API_REST_WORKSHOP
 Un fichier `docker-compose.yml` est fourni pour déployer la base de données MySQL. Exécutez :
 
 ```sh
-docker-compose up -d
+docker-compose up -d --build
 ```
 
 Puis accédez à l'interface web de gestion via : [http://localhost:8080/](http://localhost:8080/)

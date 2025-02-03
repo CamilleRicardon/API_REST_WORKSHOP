@@ -3,7 +3,7 @@ services:
     image: mysql:8.0
     container_name: mysql_db
     environment:
-      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_ROOT_PASSWORD: todo_pass
       MYSQL_DATABASE: todo_db
       MYSQL_USER: todo_user
       MYSQL_PASSWORD: secret
